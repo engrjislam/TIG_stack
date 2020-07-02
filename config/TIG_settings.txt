@@ -1,0 +1,25 @@
+GRAFANA
+
+    [default]
+    username = admin
+    password = admin
+
+INFLUXDB
+
+    # user creation
+    influx 
+
+    CREATE USER "admin" WITH PASSWORD 'admin' WITH ALL PRIVILEGES
+    SHOW USERS
+
+    # set true to auth-enabled at /etc/influxdb/influxdb.conf
+    auth-enabled = true
+
+TELEGRAF
+
+    urls = ["http://127.0.0.1:8086"]
+
+    database = "telegraf"
+
+    username = "admin"
+    password = "admin"

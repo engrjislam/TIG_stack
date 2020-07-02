@@ -1,0 +1,16 @@
+-- <measurement> denotes the name of table
+-- <field> denotes the name of column. Multiple columns are seperated by comma (,) with any space
+
+-- INSERT <mesurement> <field>=<value>
+-- INSERT <mesurement> <field1>=<value1>,<field1>=<value1>
+
+INSERT temperature room=1,value=22.0
+INSERT temperature room=1,value=22.1
+INSERT temperature room=1,value=22.2
+INSERT temperature room=1,value=22.3
+INSERT temperature room=1,value=22.4
+INSERT temperature room=1,value=22.5
+INSERT temperature room=1,value=22.6
+INSERT temperature room=1,value=22.7
+INSERT temperature room=1,value=22.8
+INSERT temperature room=1,value=22.9

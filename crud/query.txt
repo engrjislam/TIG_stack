@@ -1,0 +1,19 @@
+-- show all databases
+SHOW DATABASES
+show databases
+
+
+-- use a database
+USE <DATABASE>
+use <database>
+
+
+-- show all tables / measurements
+SHOW MEASUREMENTS
+show measurements
+
+
+-- drop a measurement
+DROP MEASUREMENT <MEASUREMENT>
+drop measurement <measurement>
+
