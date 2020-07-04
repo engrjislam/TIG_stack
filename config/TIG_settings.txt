@@ -16,7 +16,8 @@ INFLUXDB
     auth-enabled = true
 
 TELEGRAF
-
+    
+    # change followings into the /etc/telegraf/telegraf.conf file
     urls = ["http://127.0.0.1:8086"]
 
     database = "telegraf"
